@@ -20,7 +20,7 @@ const QuizComponent = ( {setIsLoggedIn}) => {
   return (
     <div>
       <h1>Quiz Component</h1>
-      <p>Select the correct answer:</p>
+      <p>Select the correctkdufhvfknk answer:</p>
       <button className={selectedOption === 'option1' ? 'selected' : ''} onClick={() => handleOptionClick('option1')}>Option 1</button>
       <button className={selectedOption === 'option2' ? 'selected' : ''} onClick={() => handleOptionClick('option2')}>Option 2</button>
       <button className={selectedOption === 'option3' ? 'selected' : ''} onClick={() => {handleOptionClick('option3');
